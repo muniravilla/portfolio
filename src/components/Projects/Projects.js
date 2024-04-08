@@ -25,10 +25,10 @@ function Projects() {
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/MuniSandeepKumarRavilla4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Oil and Chemical Spill Incident Analysis and Clustering"
+              description="Extract insights from a comprehensive spill dataset using advanced data analysis, machine learning, and text augmentation techniques. Key components include geospatial extraction, textual preprocessing, TF-IDF vectorization, SMOTE-based data augmentation, and GPT-3 powered feature extraction for chemical spills."
+              ghLink="https://github.com/joelmaguluri/NOAA-oilspill-analysis"
+              // demoLink="https://chatify-49.web.app/"
             />
           </Col>
 
@@ -36,7 +36,7 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Bits-0f-C0de"
+              title="Interactive Disease Analysis Dashboard"
               description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
               ghLink="https://github.com/MuniSandeepKumarRavilla4419/Bits-0f-C0de"
               demoLink="https://blogs.soumya-jit.tech/"
