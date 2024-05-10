@@ -12,6 +12,13 @@ html {
   );
 
   --imp-text-color: #f4b858;
+
+
+}
+
+body{
+
+  background-color: #181a27;
 }
 
 .purple {
@@ -262,6 +269,7 @@ button:focus {
   background-repeat: no-repeat;
   padding-bottom: 30px !important;
   padding-top: 30px !important;
+  background-color: black;
 }
 
 .home-content {
@@ -406,6 +414,7 @@ button:focus {
   bottom: 0 !important;
   padding-top: 10px !important;
   padding-bottom: 8px !important ;
+  text-align: center;
 }
 .footer-copywright {
   text-align: center !important;
