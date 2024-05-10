@@ -100,6 +100,16 @@ function NavBar() {
               >
                 <ImBlog style={{ marginBottom: "2px" }} /> Blogs
               </Nav.Link>
+              {/* <Nav.Link
+                as={Link}
+                to="/project"
+                onClick={() => updateExpanded(false)}
+              >
+                <AiOutlineFundProjectionScreen
+                  style={{ marginBottom: "2px" }}
+                />{" "}
+                Projects
+              </Nav.Link> */}
             </Nav.Item>
 
             <Nav.Item className="fork-btn">

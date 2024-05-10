@@ -64,20 +64,21 @@ button:focus {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #bea55b;
+  background: #000000;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: rgb(0, 0, 0);
+  background: #f8c35f;
   border-radius: 12px;
 }
 
 /* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
+
+/* ::-webkit-scrollbar-thumb:hover {
   background: rgba(0, 0, 0, 0);
   border-radius: 12px;
-}
+} */
 
 /* --------- */
 /* Navbar Section  */
@@ -104,7 +105,7 @@ button:focus {
 
 .navbar-toggler span {
   display: block !important;
-  background-color: #f4ad50 !important;
+  background-color: #f8c35f !important;
   height: 4px !important;
   width: 27px !important;
   margin-top: 5px !important;
@@ -264,7 +265,7 @@ button:focus {
 .home-section {
   position: relative;
   z-index: -1;
-  background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
+  /* background-image: var(--image-gradient), url(./Assets/home-bg.jpg); */
   background-position: top center;
   background-repeat: no-repeat;
   padding-bottom: 30px !important;
@@ -294,12 +295,12 @@ button:focus {
 
 .Typewriter__wrapper {
   font-size: 2.2em !important;
-  color: #dfba6a !important;
+  color: #f8c35f !important;
   font-weight: 600 !important;
 }
 .Typewriter__cursor {
   font-size: 2.4em !important;
-  color: #d6bd62 !important;
+  color: #f8c35f !important;
 }
 
 @media (max-width: 767px) {
@@ -329,6 +330,7 @@ button:focus {
   position: relative;
   padding-bottom: 70px !important;
   padding-top: 70px !important;
+  background-color: black;
 }
 
 .home-about-description {
@@ -457,7 +459,8 @@ button:focus {
   position: relative !important;
   padding-top: 150px !important;
   padding-bottom: 30px !important;
-  background-image: var(--section-background-color) !important;
+  /* background-image: var(--section-background-color) !important; */
+  background-color: black;
 }
 
 .project-card {
@@ -555,7 +558,8 @@ button:focus {
   position: relative !important;
   padding-top: 150px !important;
   padding-bottom: 30px !important;
-  background-image: var(--section-background-color) !important;
+  /* background-image: var(--section-background-color) !important; */
+  background-color: black;
   color: white !important;
 }
 
@@ -615,7 +619,8 @@ button:focus {
   position: relative !important;
   padding-top: 110px !important;
   padding-bottom: 30px !important;
-  background-image: var(--section-background-color) !important;
+  /* background-image: var(--section-background-color) !important; */
+  background-color: black;
   color: white !important;
 }
 
