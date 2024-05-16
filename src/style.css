@@ -40,7 +40,7 @@ button:focus {
   height: 100%;
   z-index: 999999;
   background-color: #0c0513;
-  background-image: url(./Assets/pre.svg);
+  /* background-image: url(./Assets/pre.svg); */
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -75,10 +75,10 @@ button:focus {
 
 /* Handle on hover */
 
-/* ::-webkit-scrollbar-thumb:hover {
-  background: rgba(0, 0, 0, 0);
+::-webkit-scrollbar-thumb:hover {
+  background: #946103;
   border-radius: 12px;
-} */
+}
 
 /* --------- */
 /* Navbar Section  */
@@ -252,6 +252,7 @@ button:focus {
 }
 #tsparticles {
   position: fixed !important;
+  z-index: 1;
   background-repeat: no-repeat !important;
   background-size: cover !important;
   width: 100%;
