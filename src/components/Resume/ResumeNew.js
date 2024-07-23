@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
-import Particle from "../Particle";
-import pdf from "../../Assets/../Assets/Muni Sandeep Kumar_Ravilla.pdf";
+// import Particle from "../Particle";
+import pdf from "../../Assets/Muni Sandeep Kumar_Ravilla.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
@@ -18,12 +18,12 @@ function ResumeNew() {
   return (
     <div>
       <Container fluid className="resume-section">
-        <Particle />
+        {/* <Particle /> */}
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
             href={pdf}
-            target="_blank"
+            download="Muni_Sandeep_Kumar_Ravilla.pdf"
             style={{ maxWidth: "250px" }}
           >
             <AiOutlineDownload />
