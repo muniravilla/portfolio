@@ -38,7 +38,7 @@ function Home() {
                 src={homeLogo}
                 alt="home pic"
                 className="img-fluid"
-                style={{ maxHeight: "1000px",  marginTop: -50  }}
+                style={{ maxHeight: "450px"}}
               />
             </Col>
 
