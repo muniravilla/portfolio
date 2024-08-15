@@ -27,7 +27,7 @@ function Projects() {
               isBlog={false}
               title="Oil and Chemical Spill Incident Analysis and Clustering"
               description="Extract insights from a comprehensive spill dataset using advanced data analysis, machine learning, and text augmentation techniques. Key components include geospatial extraction, textual preprocessing, TF-IDF vectorization, SMOTE-based data augmentation, and GPT-3 powered feature extraction for chemical spills."
-              ghLink="https://github.com/joelmaguluri/NOAA-oilspill-analysis"
+              // ghLink="https://github.com/joelmaguluri/NOAA-oilspill-analysis"
               // demoLink="https://chatify-49.web.app/"
             />
           </Col>
@@ -37,9 +37,9 @@ function Projects() {
               imgPath={bitsOfCode}
               isBlog={false}
               title="Interactive Disease Analysis Dashboard"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/MuniSandeepKumarRavilla4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              // description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
+              // ghLink="https://github.com/MuniSandeepKumarRavilla4419/Bits-0f-C0de"
+              // demoLink="https://blogs.soumya-jit.tech/"
             />
           </Col>
 
@@ -47,10 +47,10 @@ function Projects() {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/MuniSandeepKumarRavilla4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Predictive Analysis of Blog Feedback"
+              // description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
+              // ghLink="https://github.com/MuniSandeepKumarRavilla4419/Editor.io"
+              // demoLink="https://editor.soumya-jit.tech/"              
             />
           </Col>
 
@@ -58,10 +58,10 @@ function Projects() {
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/MuniSandeepKumarRavilla4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Sentiment Analysis for Twitter Data"
+              // description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
+              // ghLink="https://github.com/MuniSandeepKumarRavilla4419/Plant_AI"
+              // demoLink="https://plant49-ai.herokuapp.com/"
             />
           </Col>
 
