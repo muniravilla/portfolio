@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
-// import Particle from "../Particle";
-// import pdf from "../../Assets/Muni Sandeep Kumar_Ravilla.pdf";
 import pdf from "../../Assets/Muni_Sandeep_Kumar_Ravilla_Resume.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
